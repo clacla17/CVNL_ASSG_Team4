@@ -1,0 +1,8 @@
+# Ignore large FGVC dataset files
+/data/CV/fgvc-aircraft-2013b/
+/data/CV/fgvc-aircraft-2013b.tar.gz
+
+# (optional) other common archive formats
+*.zip
+*.7z
+*.rar
