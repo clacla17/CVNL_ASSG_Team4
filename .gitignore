@@ -1,0 +1,46 @@
+# Ignore large FGVC dataset files
+/data/CV/fgvc-aircraft-2013b/
+/data/CV/fgvc-aircraft-2013b.tar.gz
+
+# (optional) other common archive formats
+*.zip
+*.7z
+*.rar
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Large model files (too big for GitHub)
+models/
+*.pt
+*.pth
+*.h5
+*.pkl
+
+# Data files (too big for GitHub)
+data/
+*.csv
+*.json
+*.txt
+
+# Output files
+outputs/
+
+# VS Code
+.vscode/
+
+# System files
+.DS_Store
+Thumbs.db
